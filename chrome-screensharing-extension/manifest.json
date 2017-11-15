@@ -13,9 +13,9 @@
     "content_scripts": [ {
         "js": [ "bridge.js" ],
         "matches": [
-            "*://*.bistri.com/*",
             "*://*.talkspirit.com/*",
             "*://*.ghostspirit.net/*",
+            "*://*.bistri.com/*",
             "*://*.bistri.me/*",
             "*://fiddle.jshell.net/*",
             "*://run.jsbin.io/*"
